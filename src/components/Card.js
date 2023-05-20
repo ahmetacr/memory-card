@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/Card.css";
 
-const Card = (props) => {
+const Card = ({ src, name, onClick }) => {
   return (
-    <div className="card">
-      <img src={props.src} alt={props.name} />
+    <div className="card" onClick={onClick}>
+      <img src={src} alt={name} />
     </div>
   );
 };
