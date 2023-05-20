@@ -1,4 +1,3 @@
-import Card from "./Card";
 import aatrox from "../assets/aatrox.jpg";
 import ahri from "../assets/ahri.jpg";
 import akali from "../assets/akali.jpg";
@@ -25,32 +24,30 @@ import vi from "../assets/vi.jpg";
 import zed from "../assets/zed.png.webp";
 
 const cardsArr = [
-  <>
-    <Card alt="aatrox" src={aatrox} />
-    <Card alt="ahri" src={ahri} />
-    <Card alt="akali" src={akali} />
-    <Card alt="alistar" src={alistar} />
-    <Card alt="amumu" src={amumu} />
-    <Card alt="anivia" src={anivia} />
-    <Card alt="ashe" src={ashe} />
-    <Card alt="azir" src={azir} />
-    <Card alt="brand" src={brand} />
-    <Card alt="caitlyn" src={caitlyn} />
-    <Card alt="cassiopeia" src={cassiopeia} />
-    <Card alt="diana" src={diana} />
-    <Card alt="draven" src={draven} />
-    <Card alt="ezreal" src={ezreal} />
-    <Card alt="jax" src={jax} />
-    <Card alt="katarina" src={katarina} />
-    <Card alt="lee-sin" src={leeSin} />
-    <Card alt="nasus" src={nasus} />
-    <Card alt="nidalee" src={nidalee} />
-    <Card alt="nocturne" src={nocturne} />
-    <Card alt="shaco" src={shaco} />
-    <Card alt="vayne" src={vayne} />
-    <Card alt="vi" src={vi} />
-    <Card alt="zed" src={zed} />
-  </>,
+  { name: "aatrox", src: aatrox, clicked: false },
+  { name: "ahri", src: ahri, clicked: false },
+  { name: "akali", src: akali, clicked: false },
+  { name: "alistar", src: alistar, clicked: false },
+  { name: "amumu", src: amumu, clicked: false },
+  { name: "anivia", src: anivia, clicked: false },
+  { name: "ashe", src: ashe, clicked: false },
+  { name: "azir", src: azir, clicked: false },
+  { name: "brand", src: brand, clicked: false },
+  { name: "caitlyn", src: caitlyn, clicked: false },
+  { name: "cassiopeia", src: cassiopeia, clicked: false },
+  { name: "diana", src: diana, clicked: false },
+  { name: "draven", src: draven, clicked: false },
+  { name: "ezreal", src: ezreal, clicked: false },
+  { name: "jax", src: jax, clicked: false },
+  { name: "katarina", src: katarina, clicked: false },
+  { name: "leeSin", src: leeSin, clicked: false },
+  { name: "nasus", src: nasus, clicked: false },
+  { name: "nidalee", src: nidalee, clicked: false },
+  { name: "nocturne", src: nocturne, clicked: false },
+  { name: "shaco", src: shaco, clicked: false },
+  { name: "vayne", src: vayne, clicked: false },
+  { name: "vi", src: vi, clicked: false },
+  { name: "zed", src: zed, clicked: false },
 ];
 
 export default cardsArr;
