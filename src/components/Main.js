@@ -1,10 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/Main.css";
-import cardsArr from "./cardsArr";
+import initialCardsArr from "./cardsArr";
 import Card from "./Card";
 
 function Main({ incrementScore, gameOver }) {
-  const [cardArr, setCardArr] = useState(cardsArr);
+  const [cardArr, setCardArr] = useState([]);
+
+  useEffect(() => {
+    setCardArr(shuffleArray([...initialCardsArr]));
+  }, []);
 
   const click = (e) => {
     const clickedCardName = e.target.alt;
@@ -23,6 +27,7 @@ function Main({ incrementScore, gameOver }) {
 
     if (hasLost) {
       gameOver();
+      setCardArr(shuffleArray([...initialCardsArr]));
     } else {
       incrementScore();
       setCardArr(shuffleArray(updatedArr));
@@ -40,7 +45,7 @@ function Main({ incrementScore, gameOver }) {
   return (
     <div className="mainContainer">
       {cardArr.map((card, index) => (
-        <Card key={index} src={card.src} name={card.name} onClick={click} />
+        <Card key={index} src={card.src} alt={card.name} onClick={click} />
       ))}
     </div>
   );
