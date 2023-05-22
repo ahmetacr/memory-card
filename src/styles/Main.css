@@ -1,8 +1,11 @@
 .mainContainer {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-gap: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
 }
+
 
 /* Small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

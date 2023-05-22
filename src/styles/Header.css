@@ -6,11 +6,6 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-
-.header h1 {
-  font-size: 2rem;
-  margin: 0;
-  color: white;
-  text-shadow: 2px 2px #E100FF;
+  background: linear-gradient(90deg, rgba(227,233,238,1) 0%, rgba(196,196,241,1) 100%);
+  box-shadow: 0 8px 6px -6px black;
 }
