@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.ff0b67d3.css",
+    "main.js": "/memory-card/static/js/main.fb134d2a.js",
+    "static/media/aatrox.jpg": "/memory-card/static/media/aatrox.8ce7b21f6075c4c9a1ba.jpg",
+    "static/media/akali.jpg": "/memory-card/static/media/akali.ce2fa46d10436299be44.jpg",
+    "static/media/nasus.jpg": "/memory-card/static/media/nasus.4186c67c10f266b16313.jpg",
+    "static/media/ezreal.jpg": "/memory-card/static/media/ezreal.1d51a1ec4b66af77aeee.jpg",
+    "static/media/brand.jpg": "/memory-card/static/media/brand.f0e3a4edd7016dccc325.jpg",
+    "static/media/vi.jpg": "/memory-card/static/media/vi.5e71ae73afefe9b10370.jpg",
+    "static/media/katarina.jpg": "/memory-card/static/media/katarina.06be1daf89a8da8e1614.jpg",
+    "static/media/azir.jpg": "/memory-card/static/media/azir.00295f4b18c9cee8c16c.jpg",
+    "static/media/caitlyn.jpg": "/memory-card/static/media/caitlyn.1428cc8a755d6e62d6e4.jpg",
+    "static/media/ahri.jpg": "/memory-card/static/media/ahri.2dc339ea53b0fcfdc4cf.jpg",
+    "static/media/anivia.jpg": "/memory-card/static/media/anivia.776f44af5226ae08c10b.jpg",
+    "static/media/ashe.jpg": "/memory-card/static/media/ashe.75551b1df8e34aff1b79.jpg",
+    "static/media/vayne.png.webp": "/memory-card/static/media/vayne.png.c1ab28b5ebcb9c5ccc27.webp",
+    "static/media/draven.jpg": "/memory-card/static/media/draven.c83c43f6c8ee555eade5.jpg",
+    "static/media/amumu.jpg": "/memory-card/static/media/amumu.e3dc0eb4a0d19ef4e6e0.jpg",
+    "static/media/nidalee.jpg": "/memory-card/static/media/nidalee.33d011624ed1504dd5e8.jpg",
+    "static/media/shaco.jpg": "/memory-card/static/media/shaco.073f9d44d458fab4deb8.jpg",
+    "static/media/cassiopeia.jpg": "/memory-card/static/media/cassiopeia.f4d020beadf097cbaecf.jpg",
+    "static/media/diana.jpg": "/memory-card/static/media/diana.c5ec7581574a3849b676.jpg",
+    "static/media/zed.png.webp": "/memory-card/static/media/zed.png.d7beddf0a09787d7c0b4.webp",
+    "static/media/jax.jpg": "/memory-card/static/media/jax.833b1b29bf6d5314ed3f.jpg",
+    "static/media/lee-sin.jpg": "/memory-card/static/media/lee-sin.4728aace7dd67cd30ea5.jpg",
+    "index.html": "/memory-card/index.html",
+    "main.ff0b67d3.css.map": "/memory-card/static/css/main.ff0b67d3.css.map",
+    "main.fb134d2a.js.map": "/memory-card/static/js/main.fb134d2a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff0b67d3.css",
+    "static/js/main.fb134d2a.js"
+  ]
+}
